@@ -59,8 +59,8 @@
 
 | Name                 | Documentation                              | Install   | Downloads |
 | -------------------- | -------------------------------------------- | --------- | --------- |
-| [NodeJS](https://nodejs.org/en/download/) | [NodeJS Docs](https://nodejs.org/en/docs/)  | [![Nuget](https://img.shields.io/nuget/v/Slack.Exception.Send)](https://nodejs.org/en/download/) | [![NodeJS](https://img.shields.io/nuget/dt/Slack.Exception.Send)](https://nodejs.org/en/download/) |
-| [Laravel.com](https://laravel.com/)   | [Laravel Docs](https://laravel.com/docs/)   | [![Nuget](https://img.shields.io/nuget/v/BrazilHolidays.Net)](https://laravel.com/docs/7.x/installation) | [![Laravel](https://img.shields.io/nuget/dt/BrazilHolidays.Net)](https://laravel.com/docs/7.x/installation) |
+| [NodeJS](https://nodejs.org/en/download/) | [NodeJS Docs](https://nodejs.org/en/docs/)  | [![Nuget](https://img.shields.io/nuget/v/Slack.Exception.Send)](https://nodejs.org/en/download/) | [![Nuget](https://img.shields.io/nuget/dt/Slack.Exception.Send)](https://nodejs.org/en/download/) |
+| [Laravel.com](https://laravel.com/)   | [Laravel Docs](https://laravel.com/docs/)   | [![Nuget](https://img.shields.io/nuget/v/BrazilHolidays.Net)](https://laravel.com/docs/7.x/installation) | [![Nuget](https://img.shields.io/nuget/dt/BrazilHolidays.Net)](https://laravel.com/docs/7.x/installation) |
 <!-- | Content Cell         | Content Cell                                | link | link | -->
   
 </details>
