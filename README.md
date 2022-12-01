@@ -26,6 +26,12 @@
 </p>
 
 <p align='center'>
+  <a href="#"><img src="http://github-readme-streak-stats.herokuapp.com?user=TheusRibeiro&theme=dark&hide_border=true&mode=weekly&border=DDDDDD&ring=2EA043&fire=2EA043&currStreakLabel=2EA043" width="350"></a>
+
+</p>
+
+
+<p align='center'>
   💻 Technologies and Languages<br/><br/>
   <img src="https://img.shields.io/badge/reactjs-%230078D6.svg?&style=for-the-badge&logo=react&logoColor=white" />
   <img src="https://img.shields.io/badge/laravel-4A154B.svg?&style=for-the-badge&logo=laravel&logoColor=white" />
