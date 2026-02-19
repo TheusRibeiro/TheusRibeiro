@@ -18,11 +18,11 @@
   <a href="https://www.instagram.com/sr.teus">
     <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" />        
   </a>&nbsp;&nbsp;
-<center>
-  
-  ![Metrics](/github-metrics.svg)
 
-</center>
+  <!---
+  ![Metrics](/github-metrics.svg)
+  --->
+
 </p>
 
 <p align='center'>
