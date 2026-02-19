@@ -18,9 +18,4 @@ jobs:
           # O token que você configurou no Passo 2
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Opções básicas
-          user: TheusRibeiro  # <--- COLOQUE SEU USUARIO AQUI
-          template: classic
-          base: header, community, repositories, metadata
-          config_timezone: America/Bahia
 
