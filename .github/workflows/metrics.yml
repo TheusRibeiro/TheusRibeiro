@@ -1,10 +1,7 @@
 name: Metrics
 on:
-  # Agenda para rodar a cada 24 horas
   schedule: [{cron: "0 0 * * *"}]
-  # Permite rodar manualmente para testar
   workflow_dispatch:
-  # Roda sempre que você der push no main
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -15,7 +12,22 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # O token que você configurou no Passo 2
+          # Nome do arquivo que será gerado
+          filename: github-metrics.svg
+          
+          # Autenticação (Mantenha o segredo que configuramos antes)
           token: ${{ secrets.METRICS_TOKEN }}
-
-
+          user: TheusRibeiro
+          
+          # Deixar o "base" vazio remove todo o resto do perfil
+          base: ""
+          
+          # Configuração do Plugin
+          plugin_starlists: yes
+          plugin_starlists_languages: yes
+          plugin_starlists_limit_languages: 8
+          plugin_starlists_limit_repositories: 0
+          
+          # ATENÇÃO: Se você quer de TODAS as estrelas, remova a linha abaixo. 
+          # Se quer de uma lista específica, troque "Awesome" pelo nome da sua lista.
+          plugin_starlists_only: Awesome
