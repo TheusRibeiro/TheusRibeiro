@@ -1,7 +1,10 @@
 name: Metrics
 on:
+  # Agenda para rodar a cada 24 horas
   schedule: [{cron: "0 0 * * *"}]
+  # Permite rodar manualmente para testar
   workflow_dispatch:
+  # Roda sempre que você der push no main
   push: {branches: ["master", "main"]}
 
 jobs:
@@ -12,20 +15,18 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Nome do arquivo que será gerado
-          filename: github-metrics.svg
-          
-          # Autenticação (Mantenha o segredo que configuramos antes)
+          # O token que você configurou no Passo 2
           token: ${{ secrets.METRICS_TOKEN }}
-          user: TheusRibeiro
-          
-          # Deixar o "base" vazio remove todo o resto do perfil
-          base: ""
-          
-          # Configuração do Plugin
-          plugin_habits: yes
-          plugin_habits_facts: no
-          plugin_habits_charts: yes
-          
-          # Configuração de Fuso horário
+
+          # Opções básicas
+          user: seu-usuario-aqui  # <--- COLOQUE SEU USUARIO AQUI
+          template: classic
+          base: header, community, repositories, metadata
           config_timezone: America/Bahia
+          
+          # Plugins extras (opcional)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
