@@ -23,11 +23,9 @@ jobs:
           base: ""
           
           # Configuração do Plugin
-          plugin_starlists: yes
-          plugin_starlists_languages: yes
-          plugin_starlists_limit_languages: 8
-          plugin_starlists_limit_repositories: 0
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
           
-          # ATENÇÃO: Se você quer de TODAS as estrelas, remova a linha abaixo. 
-          # Se quer de uma lista específica, troque "Awesome" pelo nome da sua lista.
-          plugin_starlists_only: Awesome
+          # Configuração de Fuso horário
+          config_timezone: America/Bahia
