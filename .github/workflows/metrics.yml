@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Opções básicas
-          user: seu-usuario-aqui  # <--- COLOQUE SEU USUARIO AQUI
+          user: TheusRibeiro  # <--- COLOQUE SEU USUARIO AQUI
           template: classic
           base: header, community, repositories, metadata
           config_timezone: America/Bahia
